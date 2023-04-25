@@ -27,14 +27,18 @@
           >
           <ul class="navList">
             <li class="item">
-              <div class="isActive">
-                <a href="./index.html" class="link">Agency</a>
+              <div>
+                <a href="./index.html" class="link isActive">Agency</a>
               </div>
             </li>
-            <li class="item">
-              <a class="link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="item"><a href="#" class="link">Contacts</a></li>
+            <div>
+              <li class="item">
+                <a class="link" href="./portfolio.html">Portfolio</a>
+              </li>
+            </div>
+            <div>
+              <li class="item"><a href="#" class="link">Contacts</a></li>
+            </div>
           </ul>
         </nav>
         <div class="contact">
@@ -53,6 +57,7 @@
         </div>
       </div>
     </header>
+
     <div class="container">
       <div class="primary-box">
         <h1>
@@ -64,15 +69,18 @@
           Order the service
         </button>
         <div class="backdrop is-hidden" data-modal>
-          This is modal
-
-          <button data-modal-close type="button">Close the modal</button>
+          <div class="modal">
+            <!-- This is modal -->
+            <div>
+              <button class="x" data-modal-close type="button">X</button>
+            </div>
+          </div>
         </div>
-      </div>
 
         <script src="./js/modal.js"></script>
       </div>
     </div>
+
     <div class="container">
       <div class="loremIpsum">
         <div class="loremDescription">
@@ -122,33 +130,50 @@
         <div class="sectionHeading">
           <h2>What we do</h2>
         </div>
+        <div class="whatWeDo">
+          <figure>
+            <div class="picturesWhatWeDo">
+              <img
+                src="./images/2.jpg"
+                alt="picure shows pc"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="descriptionWhatWeDo">Computer applications</p>
+              </figcaption>
+            </div>
+          </figure>
+          <figure>
+            <div class="picturesWhatWeDo">
+              <img
+                src="./images/1.jpg"
+                alt="picure shows pc"
+                width="370"
+                height="294"
+              />
 
-        <ul class="whatWeDo">
-          <li class="picturesWhatWeDo">
-            <img
-              src="./images/2.jpg"
-              alt="picure shows pc"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="picturesWhatWeDo">
-            <img
-              src="./images/1.jpg"
-              alt="picure shows pc"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="picturesWhatWeDo">
-            <img
-              src="./images/3.jpg"
-              alt="picure shows pc"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+              <figcaption>
+                <p class="descriptionWhatWeDo">Mobile applications</p>
+              </figcaption>
+            </div>
+          </figure>
+
+          <figure>
+            <div class="picturesWhatWeDo">
+              <img
+                src="./images/3.jpg"
+                alt="picure shows pc"
+                width="370"
+                height="294"
+              />
+
+              <figcaption>
+                <p class="descriptionWhatWeDo">Graphics solutions</p>
+              </figcaption>
+            </div>
+          </figure>
+        </div>
       </div>
     </section>
     <div class="backgroundColor">
