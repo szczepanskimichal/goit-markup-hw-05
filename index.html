@@ -27,7 +27,9 @@
           >
           <ul class="navList">
             <li class="item">
-              <a href="./index.html" class="link">Agency</a>
+              <div class="isActive">
+                <a href="./index.html" class="link">Agency</a>
+              </div>
             </li>
             <li class="item">
               <a class="link" href="./portfolio.html">Portfolio</a>
@@ -57,7 +59,12 @@
           EFFICIENT SOLUTIONS<br />
           FOR YOUR BUSINESS
         </h1>
+        <button class="modal IsHidden">OPEN</button>
         <button class="button" type="button">Order the service</button>
+        <div class="modal IsHidden" dadata-modal>
+          <button data-modal-close>X</button>
+        </div>
+        <script src="./js/modal.js"></script>
       </div>
     </div>
     <div class="container">
