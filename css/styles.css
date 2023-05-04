@@ -318,13 +318,13 @@ h2 {
   /*  Set the width of the elements*/
   flex-basis: calc((100% - 3 * 30px) / 3);
 }
-.img-set2 {
+/* .img-set2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   padding: 0;
-}
+} */
 .img-set2:hover,
 .img-set2:focus {
   cursor: pointer;
