@@ -43,6 +43,32 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.link-agency {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.link-agency:focus,
+.link-agency:hover {
+  color: #2196f3;
+}
+
+.link-agency::after {
+  display: none;
+  content: "";
+  width: 53px;
+  height: 4px;
+  border-radius: 4px;
+  background-size: contain;
+  background-color: #2196f3;
+  margin-top: 28px;
+  position: absolute;
+}
+
+.link-agency:hover::after {
+  display: block;
+}
 .mailto {
   font-weight: 500;
   font-size: 14px;
@@ -378,6 +404,7 @@ img {
 }
 .item {
   margin-right: 46px;
+  display: inline-flex;
 }
 /*<----------------------------------------------->*/
 .pictureLoremIpsum {
