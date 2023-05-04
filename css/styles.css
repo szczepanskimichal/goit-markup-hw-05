@@ -43,31 +43,37 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.link-agency {
+.link-agency,
+.link-portfolio {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #212121;
-}
-.link-agency:focus,
-.link-agency:hover {
   color: #2196f3;
 }
 
-.link-agency::after {
-  display: none;
-  content: "";
-  width: 53px;
-  height: 4px;
-  border-radius: 4px;
-  background-size: contain;
-  background-color: #2196f3;
-  margin-top: 28px;
-  position: absolute;
+.link-agency:focus,
+.link-agency:hover,
+.link-portfolio:focus,
+.link-portfolio:hover {
+  color: #2196f3;
 }
 
-.link-agency:hover::after {
-  display: block;
+.link-agency::after,
+.link-portfolio::after {
+  display: flex;
+  content: "";
+  width: 54px;
+  height: 4px;
+  border-radius: 2px;
+  background-size: contain;
+  background-color: #2196f3;
+  margin-top: 24px;
+  position: absolute;
+}
+.link-agency:hover::after,
+.link-portfolio:hover::after {
+  display: flex;
+  color: #2196f3;
 }
 .mailto {
   font-weight: 500;
@@ -404,7 +410,7 @@ img {
 }
 .item {
   margin-right: 46px;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 /*<----------------------------------------------->*/
 .pictureLoremIpsum {
