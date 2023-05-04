@@ -508,14 +508,6 @@ h4 {
   flex-wrap: wrap;
 }
 
-.x {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-}
-
 .item2 {
   position: relative;
   width: 100%;
@@ -602,7 +594,20 @@ h4 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-
+.button-close {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #0000001a;
+  background-color: #fff;
+  padding: 6px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
 .is-hidden .modal {
   transform: scale(0);
 }
