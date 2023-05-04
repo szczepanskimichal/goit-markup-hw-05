@@ -60,6 +60,7 @@ body {
 
 .link-agency::after {
   display: flex;
+  justify-content: center;
   content: "";
   width: 53px;
   height: 4px;
@@ -71,6 +72,7 @@ body {
 }
 .link-portfolio::after {
   display: flex;
+  justify-content: center;
   content: "";
   width: 58px;
   height: 4px;
