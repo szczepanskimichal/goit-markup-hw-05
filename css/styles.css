@@ -58,11 +58,21 @@ body {
   color: #2196f3;
 }
 
-.link-agency::after,
+.link-agency::after {
+  display: flex;
+  content: "";
+  width: 53px;
+  height: 4px;
+  border-radius: 2px;
+  background-size: contain;
+  background-color: #2196f3;
+  margin-top: 24px;
+  position: absolute;
+}
 .link-portfolio::after {
   display: flex;
   content: "";
-  width: 54px;
+  width: 58px;
   height: 4px;
   border-radius: 2px;
   background-size: contain;
