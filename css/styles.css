@@ -42,6 +42,8 @@ body {
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #212121;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .link-agency,
 .link-portfolio {
@@ -56,6 +58,8 @@ body {
 .link-portfolio:focus,
 .link-portfolio:hover {
   color: #2196f3;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .link-agency::after {
@@ -86,6 +90,7 @@ body {
 .link-portfolio:hover::after {
   display: flex;
   color: #2196f3;
+  
 }
 .mailto {
   font-weight: 500;
@@ -97,6 +102,8 @@ body {
   margin-right: 10px;
   fill: #757575;
   display: flex;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .tel1 {
   font-weight: 500;
@@ -107,6 +114,8 @@ body {
   align-items: center;
   fill: #757575;
   display: flex;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .mailto:hover,
 .mailto:focus,
@@ -116,6 +125,7 @@ body {
 .link:focus {
   color: #2196f3;
   fill: #2196f3;
+  
 }
 .envelope {
   margin-right: 10px;
@@ -149,6 +159,8 @@ ul {
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .lorem-heading {
   font-weight: 700;
@@ -248,12 +260,16 @@ h2 {
 .emailWebmaster {
   padding-top: 9px;
   padding-bottom: 9px;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .tel {
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: 1.7;
   color: #757575;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 /*Portfolio*/
 .buttonP {
@@ -267,6 +283,8 @@ h2 {
   line-height: 1.6;
   cursor: pointer;
   margin-left: 8px;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .buttonP:hover,
 .buttonP:focus {
@@ -362,13 +380,10 @@ h2 {
   /*  Set the width of the elements*/
   flex-basis: calc((100% - 3 * 30px) / 3);
 }
-/* .img-set2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding: 0;
-} */
+.img-set2 {
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
+} 
 .img-set2:hover,
 .img-set2:focus {
   cursor: pointer;
@@ -458,6 +473,8 @@ img {
   cursor: pointer;
   align-items: center;
   justify-content: center;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .customersBorder:hover svg,
 .customersBorder:focus svg {
@@ -475,6 +492,8 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   display: flex;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .borderMedia:hover,
 .borderMedia:focus {
@@ -551,8 +570,7 @@ h4 {
   text-align: left;
   transform: translate (50%, 50%), scale(1);
   transition: transform 250ms ease-in;
-
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .cardDescription2::before {
   content: " ";
@@ -605,6 +623,8 @@ h4 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .button-close {
   height: 30px;
@@ -646,4 +666,6 @@ h4 {
   align-items: center;
   justify-content: center;
 }
-/* transition-duration: 250ms; cubic-bezier(0.4, 0, 0.2, 1) ; */
+/* 
+  transition-duration: 250ms; 
+  cubic-bezier(0.4, 0, 0.2, 1) ; */
